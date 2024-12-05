@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="burger" onclick="toggleNav()">
+            <div class="list"></div>
+            <div class="list"></div>
+            <div class="list"></div>
+        </div>
+        <nav>
+           
+
+            <ul class="first">
+                <li><img width="70" height="50"
+                        src="https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-with-type-logo.svg"
+                        alt="salesforce-with-type-logo"></li>
+                <li>Products</li>
+                <li>Industries</li>
+                <li>Customers</li>
+                <li>Learning</li>
+                <li>Support</li>
+                <li>Company</li>
+                <li>Salesforces+</li>
+            </ul>
+            <ul class="second">
+                <li id="contact"><u>Contact Us</u> <span>1800-420-7332</span></li>
+                <li class="search-login"><i class="ri-search-line"></i></li>
+                <li class="search-login"><i class="ri-global-line"></i></li>
+                <li class="login"><i class="ri-user-fill"></i>Login</li>
+                <li><button>Try for free</button></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="agent">
+            <h2>
+                Humans with Agents, driving success together.
+            </h2>
+            <p> <u> Discover Agentforce</u></p>
+        </div>
+        <div class="main">
+            <div class="left">
+                <h1>Try Salesforce Starter Suite for free.</h1>
+                <p>Unite marketing, sales, and service in a single app. Try Salesforce Starter Suite today. There's
+                    nothing to install. No credit card required.</p>
+                <button class="button1">Start Free Trial</button>
+                <button class="demo">Watch Demo</button>
+            </div>
+            <div class="right">
+
+            </div>
+        </div>
+        <div class="products">
+            <h2>
+                Learn what Salesforce products can do for you.
+            </h2>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <div class="img-container">
+                    <img width="100%" height="100%" src="firstImage.webp" alt="images">
+                </div>
+                <div class="two">
+                    <h3>Small Business</h3>
+                    <p>Sales, service, and email outreach tools in a single app.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-container">
+                    <img width="100%" height="100%" src="secondImage.webp" alt="images">
+                </div>
+                <div class="two">
+                    <h3>Marketing Cloud </h3>
+                    <p>Build customer relationships for life with data-first digital marketing.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-container"><img width="100%" height="100%" src="thirdImage.webp" alt="images"> </div>
+                <div class="two">
+                    <h3>Service Cloud</h3>
+                    <p>Make customers happy faster and build loyalty with Service Cloud.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-container">
+                    <img width="100%" height="100%" src="fourthImage.webp" alt="images">
+
+                </div>
+                <div class="two">
+                    <h3>Sales Cloud</h3>
+                    <p>Close more deals and speed up growth with the #1 CRM.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="all-products">
+            <button>View All our Products</button>
+        </div>
+        <div class="beauty"></div>
+    </main>
+    <footer>
+
+    </footer>
+
+
+<script>
+    function toggleNav() {
+      var nav = document.querySelector('nav');
+      var main = document.querySelector('main');
+      if (nav.style.display === 'block') {
+        nav.style.display = 'none';
+        main.style.marginTop ='1vh';
+
+      } else {
+        nav.style.display = 'block';
+            main.style.marginTop ='50vh';
+      }
+    }
+    </script>
+    
+
+</body>
+
+</html>
